@@ -1,5 +1,3 @@
-package com.test.coding.task.src.core;
-
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
