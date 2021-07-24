@@ -1,12 +1,18 @@
+import codered.Parser;
+import codered.impl.AnimalParser;
+import codered.impl.CarParser;
+import codered.impl.NumberParser;
+
 public class CodingTask {
 
     public static void main(String[] args) {
 
-        System.out.println("Resolve ANIMALS and NUMBERS");
-        new Level1().resolve();
+        String path = "YOUR_PATH\\src\\main\\resources\\input.txt";
 
-        System.out.println("Resolve CARS");
-        new Level3().resolve();
+        Parser animal = new AnimalParser(path);
+        animal.parse().print();
 
+        Parser parser = new NumberParser(path);
+        parser.parse().print();
     }
 }

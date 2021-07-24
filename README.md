@@ -2,4 +2,4 @@
 Animals coding task
 
 
-Just edit path for your input file in Level1 and Level3
+Run main class CodingTask with required path
